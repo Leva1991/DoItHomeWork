@@ -84,7 +84,7 @@ class HomeWork1
                 Console.WriteLine(result2);
             }
 
-            // Swich
+            // Switch
             switch (anyOperator)
             {
                 case "+" :
