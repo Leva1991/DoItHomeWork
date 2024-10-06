@@ -87,6 +87,15 @@
 
             }
         }
+
+        public void fillAccount(int amount)
+        {
+            this.balance += amount;
+        }
+        public void withdrawAccount(int amount) 
+        {
+            balance -= amount;
+        }
     }
 
     public class Client
@@ -101,8 +110,10 @@
 
             static void Main(string[] args)
             {
-                Lkuchava lkuchava = new Lkuchava("Levani", "Kuchava", 33, "12345678910", "598264226", "lev.kuchava@gmail.com");
-                lkuchava.printLkuchava();
+                /*Lkuchava lkuchava = new Lkuchava("Levani", "Kuchava", 33, "12345678910", "598264226", "lev.kuchava@gmail.com");
+                lkuchava.printLkuchava();*/
+
+                
             }
         }
     }
